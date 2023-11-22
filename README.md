@@ -6,7 +6,7 @@
 
 ~~~
 module "eks-module" {
-  source         = "github.com/ooghenekaro/module-test"
+  source         = "github.com/DoingsLLC/eks-terraform-module.git"
   region         = "Enter your Providers region here"
   vpc_cidr       = "10.0.0.0/16"
   dns_hostnames  = true
