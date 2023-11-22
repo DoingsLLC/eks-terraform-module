@@ -5,8 +5,9 @@
 ## Sample usage:
 
 ~~~
-module "eks-module" {
-  source         = "github.com/DoingsLLC/eks-terraform-module.git"
+module "module" {
+  source  = "app.terraform.io/DoingsLLC/module/eks"
+  version = "19.78.3"
   region         = "Enter your Providers region here"
   vpc_cidr       = "10.0.0.0/16"
   dns_hostnames  = true
