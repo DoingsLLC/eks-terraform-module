@@ -6,7 +6,7 @@
 
 ~~~
 module "module" {
-  source  = "app.terraform.io/DoingsLLC/module/eks"
+  source  = "DoingsLLC/module/eks"
   version = "~>  19.78.2"
   region         = "Enter your Providers region here"
   vpc_cidr       = "10.0.0.0/16"
