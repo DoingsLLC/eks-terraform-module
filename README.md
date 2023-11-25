@@ -7,7 +7,7 @@
 ~~~
 module "module" {
   source  = "DoingsLLC/module/eks"
-  version = "~>  19.78.2"
+  version = "~>  19.78.4"
   region         = "Enter your Providers region here"
   vpc_cidr       = "10.0.0.0/16"
   dns_hostnames  = true
